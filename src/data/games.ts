@@ -10,6 +10,7 @@ export type Game = {
   version: string;
   compatibility: string;
   executable: string;
+  saveFolder: string;
   icon: string;
   banner: string;
   leaderboard: string;
