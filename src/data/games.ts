@@ -85,7 +85,7 @@ export function getFaqs(game: Game): Faq[] {
       answer: 'No. SpeedrunSilentPatch is for the original PC games. Check the supported executable version listed beside the download before installing.',
     },
     {
-      question: 'I see some NG+ fixes,, do I still have to reset my game in between runs?',
+      question: 'I see some NG+ fixes, do I still have to reset my game in between runs?',
       answer: 'Yes. We’re not sure we’ve fixed all problematic instances of NG+ behavior, so a complete game restart is still required.',
     },
   ];
