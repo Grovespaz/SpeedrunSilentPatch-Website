@@ -1,0 +1,84 @@
+{
+  "gta-iii": {
+    "original": [
+      "The mouse will no longer go beyond the game window dimensions, making it possible to play the game on multi-monitor setups without problems.",
+      "DirectPlay dependency has been removed - this should improve compatibility with Windows 8 and newer.",
+      "The \"Cannot find enough available video memory\" error showing on some computers has been resolved.",
+      "Path to the User Files directory is now obtained using a dedicated API call rather than a legacy registry entry, future-proofing the games more.",
+      "Mouse sensitivity is now properly saved - like in the 1.1 and Steam versions.",
+      "Mission title and 'Mission Passed' texts now stay on screen for the same duration, regardless of screen resolution.",
+      "Free resprays will not carry on a New Game now.",
+      "Fixed ambulance and firetruck dispatch timers - they reset on New Game now.",
+      "Timers reset on a New Game now.",
+      "Lines read in CPlane::LoadPath and CTrain::ReadAndInterpretTrackFile are now null-terminated, fixing issues with plane/train paths under specific conditions in a modded game.",
+      "If the settings file is absent, the game will now default to your desktop resolution instead of 640x480x16.",
+      "All censorships from German and French versions of the game have been removed."
+    ],
+    "custom": [
+      "Windowed mode, toggleable in ini. Inspired by [III.VC.SA.WindowedMode](https://github.com/ThirteenAG/III.VC.SA.WindowedMode).",
+      "CPU affinity mask (core pinning), toggleable in the INI and off by default. Needed in very rare cases, for example when spamming replays while entering Portland crashes the game for you.",
+      "The game writes a crash log after an unhandled exception. An optional full-process memory dump can also be written beside the executable. Full dumps are disabled by default because they can be large."
+    ]
+  },
+  "vice-city": {
+    "original": [
+      "Fixed an issue where installing the game on A: or B: drive made the game ask for the CD.",
+      "The mouse should not lock up randomly when exiting the menu on newer systems anymore.",
+      "The mouse will no longer go beyond the game window dimensions, making it possible to play the game on multi-monitor setups without problems.",
+      "DirectPlay dependency has been removed - this should improve compatibility with Windows 8 and newer.",
+      "The game will not crash on startup if Data Execution Prevention is enabled for all applications anymore.",
+      "The \"Cannot find enough available video memory\" error showing on some computers has been resolved.",
+      "Path to the User Files directory is now obtained using a dedicated API call rather than a legacy registry entry, future-proofing the games more.",
+      "The mouse vertical axis sensitivity now matches horizontal axis sensitivity.",
+      "Mission title and 'Mission Passed' texts now stay on screen for the same duration, regardless of screen resolution.",
+      "Free resprays will not carry on a New Game now.",
+      "Fixed ambulance and firetruck dispatch timers - they reset on New Game now.",
+      "Lines read in CPlane::LoadPath and CTrain::ReadAndInterpretTrackFile are now null-terminated, fixing issues with plane/yacht paths under specific conditions in a modded game.",
+      "Mouse sensitivity is no longer reset on starting a New Game.",
+      "Fixed the \"Greetings from Vice City\" outro splash displaying longer than intended - now displays for 2.5 seconds.",
+      "If the settings file is absent, the game will now default to your desktop resolution instead of 640x480x16.",
+      "All censorships from German and French versions of the game have been removed."
+    ],
+    "custom": [
+      "Windowed mode, toggleable in ini. Inspired by [III.VC.SA.WindowedMode](https://github.com/ThirteenAG/III.VC.SA.WindowedMode).",
+      "CPU affinity mask (core pinning), toggleable in the INI and off by default. Needed in very rare cases.",
+      "Copyrighted ambience music in the Pole Position Club and the Malibu Club is replaced with default VC ambience, and Publicity Tour cutscene audio has music removed, to prevent DMCA-strikes on video and streaming platforms like Youtube and Twitch. Toggleable in ini with `ReplaceDMCAMusic`.",
+      "All startup movies in the Japanese executable of Vice City can be skipped with `SkipIntroSplashes` or the `/SkipIntroSplashes` command-line argument when using the DDraw component.",
+      "Fix an inconsistent crash and/or an error message on game start if the system has no disc drives.",
+      "The game writes a crash log after an unhandled exception. An optional full-process memory dump can also be written beside the executable. Full dumps are disabled by default because they can be large."
+    ]
+  },
+  "san-andreas": {
+    "original": [
+      "The mouse should not lock up randomly when exiting the menu on newer systems anymore.",
+      "DirectPlay dependency has been removed - this should improve compatibility with Windows 8 and newer.",
+      "Path to the User Files directory is now obtained using a dedicated API call rather than a legacy registry entry, future-proofing the games more.",
+      "Fixed a crash on car explosions - most likely to happen when playing with a multi-monitor setup.",
+      "Fixed a streaming-related deadlock, which could occasionally result in the game being stuck on a black screen when entering or exiting interiors (this is the issue people used to fix by setting CPU affinity to one core).",
+      "Fixed Skimmer not spawning on Windows 11 24H2.",
+      "The mouse cursor is now locked to the game window instead of getting re-centered constantly, so rapid mouse movements can no longer cause the cursor to leave the window in multi-monitor setups.",
+      "The mouse's vertical axis sensitivity now matches the horizontal axis sensitivity.",
+      "Num5 is now bindable (like in the 1.01 patch).",
+      "Dancing minigame timings have been improved, now they do not lose accuracy over time depending on the PC's uptime.",
+      "\"Keep weapons after wasted\" and \"keep weapons after busted\" are now reset on the New Game.",
+      "Pickups, car generators, and stunt jumps spawned through the text IPL files now reinitialize on a New Game. Most notably, this fixes several pickups (like fire extinguishers) going missing after starting a new game.",
+      "Mission title and 'Mission Passed' texts now stay on screen for the same duration, regardless of screen resolution.",
+      "16:9 resolutions are now selectable (like in the 1.01 patch).",
+      "Free resprays will not carry on a New Game now.",
+      "Fixed ambulance and firetruck dispatch timers - they reset on New Game now.",
+      "Several stat counters now reset on New Game - so the player will not level up quicker after starting New Game from a save.",
+      "The \"To stop Carl...\" message now resets properly on New Game.",
+      "If the settings file is absent, the game will now default to your desktop resolution instead of 800x600x32.",
+      "Remade the monitor selection dialog, adding several quality-of-life improvements - such as remembering the selected screen, modern styling, and an option to skip the dialog appearing on every game launch.",
+      "EAX/NVIDIA splashes are now removed.",
+      "A 1.0 no-DVD-only bug where recruiting gang members would stop working after activating a replay has been fixed."
+    ],
+    "custom": [
+      "WASD-cheat preventer. By default, you have to hold Shift for any cheat to work. Other options are: Normal (like vanilla), Off (disable cheats entirely), CapsLock (cheats only work when Caps Lock is on), or ScrollLock (cheats only work when Scroll Lock is on)",
+      "Windowed mode, toggleable in ini. Inspired by [III.VC.SA.WindowedMode](https://github.com/ThirteenAG/III.VC.SA.WindowedMode).",
+      "Copyrighted ambience music in the casinos, Pleasure Domes, Stadium, Lowrider challenge, beach party and the strip club can be replaced with default San Andreas ambience to help prevent DMCA strikes on video and streaming platforms. Disabled by default, toggleable with setting in .ini file.",
+      "Cpu affinity mask (aka core pinning) setting through ini. No longer needed, because SpeedrunSilentPatch patches the bug that caused crashes when running on more than one core. Off by default.",
+      "The game writes a crash log after an unhandled exception. An optional full-process memory dump can also be written beside the executable. Full dumps are disabled by default because they can be large."
+    ]
+  }
+}

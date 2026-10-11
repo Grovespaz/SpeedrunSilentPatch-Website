@@ -1,0 +1,10 @@
+{
+  "name": "Build 11",
+  "date": "2026-10-03",
+  "url": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/tag/SSP-Build-11",
+  "downloads": {
+    "gta-iii": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-11/SpeedrunSilentPatch-III-build11.zip",
+    "vice-city": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-11/SpeedrunSilentPatch-VC-build11.zip",
+    "san-andreas": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-11/SpeedrunSilentPatch-SA-build11.zip"
+  }
+}
