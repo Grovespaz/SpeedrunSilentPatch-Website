@@ -48,6 +48,7 @@ export const games: Game[] = [
       { question: 'Why do I have to hold Shift to enter cheats?', answer: 'SSP prevents accidental cheats from normal movement inputs. By default, cheats only work while Shift is held. You can change `EnableCheats` to `Normal`, `Off`, `Shift`, `CapsLock` or `ScrollLock` in the INI.' },
       { question: 'Do I still need to pin the game to one CPU core?', answer: 'No. SSP fixes the streaming deadlock that could hang the game when entering or leaving interiors. `CpuAffinityMask` is still available, but affinity forcing is disabled by default.' },
       { question: 'If you only support 1.0, is the homie recruiting bug still there?', answer: 'No. SSP fixes all issues that the 1.01 patch also fixed.' },
+      { question: 'Does the game still run at 25 FPS?', answer: 'Yes. Changing this would mean an unfair advantage over vanilla runners.' },
     ],
   },
 ];
