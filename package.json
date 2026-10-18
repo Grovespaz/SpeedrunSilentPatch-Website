@@ -6,7 +6,9 @@
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
     "typecheck": "tsc --noEmit",
-    "sync:release": "node scripts/sync-release.mjs"
+    "sync:release": "node scripts/sync-release.mjs",
+    "prepare:images": "node scripts/prepare-images.mjs",
+    "sync:fixes": "node scripts/sync-fixes.mjs"
   },
   "dependencies": {
     "next": "16.4.0",
@@ -14,9 +16,10 @@
     "react-dom": "19.3.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0"
+    "@types/react-dom": "^19.0.0",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3"
   }
 }

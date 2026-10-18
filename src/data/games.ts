@@ -21,7 +21,7 @@ export const games: Game[] = [
   {
     slug: 'gta-iii', code: 'III', name: 'Grand Theft Auto III', shortName: 'GTA III',
     version: 'PC 1.0 & 1.1',
-    compatibility: 'Supports the original PC versions 1.0 and 1.1. Steam and Rockstar Games Launcher executables are not supported; use a regular 1.1 executable instead.',
+    compatibility: 'Supports the original PC versions 1.0 and 1.1 (Retail and Steam). Rockstar Games Launcher executables are not supported; use a regular 1.1 executable instead.',
     executable: 'gta3.exe', icon: '/images/iii-icon.png', banner: '/images/iii-banner.webp',
     saveFolder: 'GTA3 User Files',
     leaderboard: 'https://www.speedrun.com/gtaiii', faqs: [],
@@ -29,12 +29,12 @@ export const games: Game[] = [
   {
     slug: 'vice-city', code: 'VC', name: 'Grand Theft Auto: Vice City', shortName: 'Vice City',
     version: 'PC Japanese version',
-    compatibility: 'The Japanese PC version is the tested and supported version. Versions 1.0 and 1.1 may work, but have not been tested.',
+    compatibility: 'The Japanese PC version is the tested and supported version. Versions 1.0 and 1.1 work, but have not been extensively tested.',
     executable: 'gta-vc.exe', icon: '/images/vc-icon.png', banner: '/images/vc-banner.webp',
     saveFolder: 'GTA Vice City User Files',
     leaderboard: 'https://www.speedrun.com/gtavc',
     faqs: [
-      { question: 'Can I skip the intro videos?', answer: 'The Japanese executable supports `SkipIntroSplashes` in the INI, or `/SkipIntroSplashes` for a single launch with the DDraw component. Keep it disabled for runs that start or restart the game while the timer is running, including 100% and trilogy runs. The option is off by default.' },
+      { question: 'Can I skip the intro videos?', answer: 'Yes. See the `SkipIntroSplashes` setting in the INI, or `/SkipIntroSplashes` for a single launch with the DDraw component. Keep it disabled for runs that start or restart the game while the timer is running, including 100% and trilogy runs. The option is off by default.' },
     ],
   },
   {
