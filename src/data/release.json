@@ -1,10 +1,10 @@
 {
-  "name": "Build 12",
-  "date": "2026-10-18",
-  "url": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/tag/SSP-Build-12",
+  "name": "Build 13",
+  "date": "2026-11-09",
+  "url": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/tag/SSP-Build-13",
   "downloads": {
-    "gta-iii": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-12/SpeedrunSilentPatch-III-build12.zip",
-    "vice-city": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-12/SpeedrunSilentPatch-VC-build12.zip",
-    "san-andreas": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-12/SpeedrunSilentPatch-SA-build12.zip"
+    "gta-iii": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-13/SpeedrunSilentPatch-III-build13.zip",
+    "vice-city": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-13/SpeedrunSilentPatch-VC-build13.zip",
+    "san-andreas": "https://github.com/Grovespaz/SpeedrunSilentPatch/releases/download/SSP-Build-13/SpeedrunSilentPatch-SA-build13.zip"
   }
 }
